@@ -1,0 +1,92 @@
+
+.comment {
+    border-bottom: 1px solid #dae1e8!important;
+    padding-bottom: 15px!important;
+    margin-bottom: 15px!important;
+}
+
+.comment .avatar {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.comm_text {
+    position: relative;
+    background-color: #bfbfbf26;
+    border-radius: 7px;
+    display: inline-block;
+    vertical-align: top;
+    width: -webkit-calc(100% - 65px);
+    width: -moz-calc(100% - 65px);
+    width: calc(100% - 65px)
+}
+
+.comm_text .user_name {
+    color: rgb(36, 36, 36);
+    font-weight: 600;
+    font-size: 13px!important;
+    margin-bottom: 0!important;
+    padding: 0 10px!important;
+}
+
+.comm_text .text {
+    font-size: 15px!important;
+    padding: 0 10px!important;
+}
+
+.comm_text .time {
+    color: #999;
+    margin-bottom: 0
+}
+
+.comments {
+    border-right: 2px solid #f6f6f6;
+    padding: 10px;
+}
+
+.down-menu {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.down-menu p {
+    cursor: pointer;
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-size: 12px!important;
+    margin: 0!important;
+    margin-bottom: 16px!important;
+    padding: 0 10px!important;
+}
+.emodji {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    box-shadow: -3px 2px 5px rgb(133, 133, 133);
+    border-radius: 15px;
+    position: absolute;
+    background-color: white;
+    right: 10px;
+    bottom: -15px;
+    padding: 2px 0;
+    padding-right: 5px;
+    color: #999;
+    font-size:15px;
+    
+}
+
+.emodji img {
+    margin: 0;
+}
+
+@media (max-width:500px) {
+    .none {
+        display: none;
+    }
+}
